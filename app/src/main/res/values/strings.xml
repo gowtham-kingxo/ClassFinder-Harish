@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">ClassFinder</string>
+
+    <string-array name="classes">
+
+        <item>Karate</item>
+        <item>Music</item>
+        <item>Classical songs</item>
+        <item>Art work</item>
+        <item>Gymnastics</item>
+        <item>Swimming</item>
+        <item>Cricket</item>
+
+
+    </string-array>
+
+    <string-array name="area">
+
+        <item>Anna Nagar</item>
+        <item>Arumbakkam</item>
+        <item>Mylapore</item>
+        <item>Nungambakkam</item>
+        <item>Adyar</item>
+        <item>Vyasarpadi</item>
+        <item>Chepauk</item>
+
+
+    </string-array>
 </resources>

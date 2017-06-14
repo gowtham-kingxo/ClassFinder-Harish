@@ -1,5 +1,6 @@
 package com.example.gowthamg.classfinder;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -19,11 +20,16 @@ public class MainActivity extends AppCompatActivity {
         register = (Button) findViewById(R.id.register_btn);
 
 
+
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Toast.makeText(MainActivity.this, "search clicked", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+
+                startActivity(intent);
 
 
             }
@@ -35,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Toast.makeText(MainActivity.this, "register clicked", Toast.LENGTH_SHORT).show();
+
+                Intent i = new Intent(MainActivity.this,Register.class);
+
+                startActivity(i);
 
 
             }
